@@ -1,0 +1,6 @@
+.Test{
+  @font-face{
+    font-family: "ObelixPro";
+      src: url("https://blaezai.github.io/Mutants-and-Masterminds-Character-Sheet/Fonts/ObelixPro.ttf");
+  }
+}
