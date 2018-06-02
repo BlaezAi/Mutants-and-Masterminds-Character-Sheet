@@ -1,6 +1,15 @@
-.Test{
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: ObelixPro;
+    font-size: 22px;
+    width: 960px;
+    margin: 60px auto;
+    text-align: center;
+}
   @font-face{
     font-family: "ObelixPro";
-      src: url("https://blaezai.github.io/Mutants-and-Masterminds-Character-Sheet/Fonts/ObelixPro.ttf");
+      src: url("https://blaezai.github.io/Mutants-and-Masterminds-Character-Sheet/Fonts/ObelixPro.ttf") format('truetype');
   }
 }
