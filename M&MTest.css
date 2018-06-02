@@ -1,3 +1,14 @@
+body{
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: ObelixPro;
+    font-size: 50px;
+    width: 960px;
+    margin: 60px auto;
+    text-align: center;
+}
+
 @font-face{
     font-family: "ObelixPro"; 
     src:local('OBELIXPROBIT-CYR.tff'), url("https://blaezai.github.io/Mutants-and-Masterminds-Character-Sheet/Fonts/ObelixPro.ttf") format('truetype');
