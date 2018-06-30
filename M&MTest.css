@@ -6,6 +6,13 @@
       background-color: darkgoldenrod;
   }
   .sheet-rolltemplate-mm_generic .sheet-generic-header,
+  .sheet-rolltemplate-mm_generic .sheet-generic-footer{
+      z-index:2;
+      display: grid;
+      grid-template-columns:[border-start]0px[content-start] 1fr [content-end]0px[border-end];
+      grid-template-rows:[content-start border-start] 1fr [content-end border-end];
+      grid-gap: var(--ringsize);
+  }
 .sheet-rolltemplate-mm_generic * {
     font-family: "ObelixPro";
 }
